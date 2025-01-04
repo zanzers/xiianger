@@ -1,0 +1,10 @@
+:root{
+
+    --test_color: yellow;
+}
+
+
+body{
+    background: var(--test_color);
+}
+

@@ -1,0 +1,21 @@
+{
+  "name": "xiianger",
+  "version": "1.0.0",
+  "description": "Portfolio using GSAP and THREE",
+  "main": "src/js/index.js",
+  
+ "scripts": {
+  "dev": "vite",
+  "build": "vite build",
+  "serve": "vite preview"
+},
+  "author": "Zanzer",
+  "license": "ISC",
+  "dependencies": {
+    "gsap": "^3.12.5",
+    "three": "^0.172.0"
+  },
+  "devDependencies": {
+    "vite": "^6.0.7"
+  }
+}
