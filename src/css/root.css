@@ -1,10 +1,108 @@
-:root{
+:root {
+    --test_color: yellow; 
+}
 
-    --test_color: yellow;
+body,
+html {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100vh; 
+}
+
+._root {
+    width: 100%;
+    height: 100vh; 
+    position: relative;
+    overflow: visible;
+}
+
+section {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero_section {
+    position: relative;
+    overflow: hidden;
+
+}
+
+.hero_container,
+.about_container{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;   
+    perspective: 1000px; 
+}
+
+.hero_main {
+    display: block;
+    width: 100%;
+    height: 100%;
+    overflow: hidden; 
+
 }
 
 
-body{
-    background: var(--test_color);
+.about_section{
+    display: flex;
+    height: 100vh;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    overflow: hidden;
+ 
 }
 
+.message{
+    position: absolute;
+    bottom: auto;
+    top: 36px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+    margin-bottom: 150px;
+}
+
+h2{
+    font-size: 16px;
+    color: black;
+}
+
+
+.about_canvas{
+    width: 100%;
+    height: auto;
+}
+
+
+.about_main{
+
+    width: 300px;
+    height: 450px;
+    background: blue;
+    border-radius: 15px;
+    transition: all 0.3s ease-in-out;
+    aspect-ratio: auto;
+    overflow: visible;
+    object-fit: fill;
+    border: solid 1px black;
+    
+}
+
+.about_inner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 300px; 
+    height: 450px; 
+}

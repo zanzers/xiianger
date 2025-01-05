@@ -1,3 +1,5 @@
+import { ThreeCanvas } from "../components/CanvasInit";
 
 
-console.log("Nowells");
+new ThreeCanvas('.hero_main');
+
